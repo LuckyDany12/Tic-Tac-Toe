@@ -14,7 +14,8 @@ print(44 *"-")
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def create_board():
+def create_board() -> str:
+    """Returns a string representation of the board."""
     return (
 f"+---+---+---+\n\
 | {board[0]} | {board[1]} | {board[2]} |\n\
