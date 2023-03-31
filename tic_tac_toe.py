@@ -1,15 +1,14 @@
-print("Welcome to Tic Tac Toe")
 delimiter = 44* "="
-print(delimiter)
-print("GAME RULES:\n\
+print(f"Welcome to Tic Tac Toe\n{delimiter}\n\
+GAME RULES:\n\
 Each player can place one mark (or stone)\n\
 per turn on the 3x3 grid. The WINNER is\n\
-who succeeds in placing three of their marks in a:\n\
+who succeeds in placing three of their\n\
+marks in a:\n\
 * horizontal,\n\
 * vertical or\n\
-* diagonal row")
-print(delimiter)
-print("Let's start the game")
+* diagonal row\n{delimiter}\n\
+Let's start the game")
 print(44 *"-")	
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
